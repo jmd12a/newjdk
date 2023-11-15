@@ -22,7 +22,6 @@ class HappyPerson extends Male{
            System.out.println("密封类被non-sealed修饰的子类可以被继承，且继承这个子类的类可以使用密封类的属性");
        }
 
-       Runnable aNew = Person::new;
    }
 }
 
